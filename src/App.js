@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
-import Preloader from "../src/components/Pre";
+import Preloader from "../src/components/Loader";
 import Resume from "./components/Resume";
 import Header from './components/Header'
 import About from "./components/AboutMe";
