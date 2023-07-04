@@ -4,11 +4,14 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from "./reportWebVitals";
+import {StrictMode} from 'react';
+import { render } from 'react-dom'
+//import {createRoot} from 'react-dom/client';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <StrictMode>
     <App />
-  </React.StrictMode>,
+  </StrictMode>,
   document.getElementById("root")
 );
 

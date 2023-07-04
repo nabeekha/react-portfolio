@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Routes,Navigate} from "react-router-dom";
 import TopScroll from "./components/TopScroll";
 import "./style.css";
-import "./App.css";
+import "./app.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {

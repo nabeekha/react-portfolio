@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Github from "./Github";
-import Aboutcard from "./AboutCard";
+//import Github from "./Github";
+//import About from "./AboutCard";
 
 function About() {
   return (
@@ -19,7 +19,7 @@ function About() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Know Who <strong className="purple">I'M</strong>
             </h1>
-            <Aboutcard />
+           
           </Col>
           <Col
             md={5}
@@ -38,7 +38,7 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
 
-        <Github />
+      
       </Container>
     </Container>
   );
