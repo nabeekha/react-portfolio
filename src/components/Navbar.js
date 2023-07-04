@@ -1,6 +1,11 @@
 import React from 'react'
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
-function Navbar() {
+function CustomNavbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
@@ -29,4 +34,4 @@ function Navbar() {
     )
 }
 
-export default Navbar 
+export default CustomNavbar 

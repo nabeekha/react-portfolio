@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Navbar from './components/Navbar'
+import CustomNavbar from './components/Navbar'
 import Preloader from "../src/components/Loader";
 import Resume from "./components/Resume";
 import Header from './components/Header'
@@ -25,7 +25,7 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
+        <CustomNavbar />
         <TopScroll />
         <Routes>
           <Route path="/" element={<Header/>} />
